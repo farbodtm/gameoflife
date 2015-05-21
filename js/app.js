@@ -14,6 +14,7 @@
   container.appendChild(canvas);
   container.id = "container";
 
+  // Insert the canvas to the page
   document.getElementById("jumbotron").insertBefore(container, document.getElementById("start-button"));
 
   // Check for canvas support
@@ -21,7 +22,9 @@
     var context = canvas.getContext('2d');
   }
 
+  // Set the events 
   window.addEventListener("click", draw);
+
   document.getElementById("start-button").addEventListener("click", function(e) { e.preventDefault(); setInterval(nextGeneration, 10); });
   document.getElementById("p1-button").addEventListener("click", function(e) { e.preventDefault(); infiniteLine(); });
   //  window.addEventListener("keyup", function() { setInterval(nextGeneration, 150); });
