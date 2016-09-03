@@ -11,5 +11,5 @@ The app would ultimately let the user to experiment with GoL. I am also planning
 
 I have used twitter bootstrap for UI.
 
-Page: http://mashiya.github.io/gameoflife/
+Page: http://farbodtm.github.io/gameoflife/
 
